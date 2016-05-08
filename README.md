@@ -1,6 +1,8 @@
 # libtri
 Library for working with the .tri file format. The .tri file format consists of a text-based header (extension .tri) containing the relevant model info and a binary data file (extension .tridata) containing the actual model data..
 
+In order to use this library, you also need to have the header-only [**glm**](https://github.com/g-truc/glm) available in your build path.
+
 You can read the header info into a *TriData* struct using the methods in *tri_tools.h*. To read the actual data from the .tridata file, you can use the *TriReader.h* class.
 
 ## Tri File Format
